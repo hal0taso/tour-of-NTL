@@ -13,6 +13,7 @@
 ここでは正方行列の指定した列をベクトルで置き換えることを行う。
 
 ```
+// change A[][i] to x and return new Matrix X
 void exchcols(Mat<ZZ_p>& X, Mat<ZZ_p>& A, Vec<ZZ_p>& x, const long i)
 {
   long n = A.NumCols();
